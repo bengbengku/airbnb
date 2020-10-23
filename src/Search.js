@@ -21,7 +21,7 @@ function Search() {
 
   return (
     <div className="search">
-      <DateRangePicker ranges={{ selectionRange }} onChange={handleSelect} />
+      <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
     </div>
   );
 }
